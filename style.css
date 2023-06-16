@@ -1,10 +1,13 @@
 body {
-  background-color: lightgray;
+  background-color: #d6d6d6;
   background-image: url("background.jpg");
   background-repeat: repeat-x;
   background-size: 325px;
   margin: 0 auto;
   padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
   text-align: center;
 }
 
@@ -38,17 +41,17 @@ aside {
   flex: 30%;
   padding: 20px;
   margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 1.7;
   align-self: flex-start;
 }
 
 article {
   margin: 10px auto;
   padding: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
@@ -57,13 +60,13 @@ article img {
 }
 
 article p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 1.7;
 }
 
 article a {
-  color: orangered;
+  color: #ff3300;
   font-weight: bold;
   text-decoration: none;
 }
@@ -80,7 +83,7 @@ article blockquote {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 
